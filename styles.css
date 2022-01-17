@@ -90,25 +90,33 @@ ul {
 
 .infosection{
     display:flex;
-    padding: 35px 50px;
+    padding: 30px 50px;
    flex-direction: column;
-   align-items:center;
+   row-gap: 20px;
+   
 
 }
 
 .cardwrapper{
     display:flex;
-    /*justify-content: space-evenly;*/
+    justify-content:space-evenly;
+    
 }
 
 .card{
    display:flex;
     flex-direction: column;
-    vertical-align:top;
-    /*display: inline-block;*/
-    text-align: center;
     width: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
         
+}
+
+.cardtitle{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .card img{
@@ -126,6 +134,7 @@ ul {
 
 
 .quote{
+    padding: 50px 50px;
     background-color: #E5E7EB;
 }
 
