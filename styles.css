@@ -76,6 +76,11 @@ body{
     display: flex;    
 }
 
+.bannerright img{
+    height: auto;
+    width:400px;
+}
+
 a{
     text-decoration: none;
     color:#E5E7EB;
@@ -134,7 +139,48 @@ ul {
 
 
 .quote{
-    padding: 50px 50px;
+    padding: 50px 150px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight:lighter;
+    
 }
 
+
+.quote .quotesig{
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signup{
+    display:flex;
+    background-color: #3882F6;
+    margin: 50px 150px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.signupbig{
+    font-size: 18px;
+    font-weight: Bold;
+    color: #F9FaF8;
+}
+
+.signupsmall{
+    color:#F9FaF8
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 20px;
+    color:#F9FaF8;
+}
